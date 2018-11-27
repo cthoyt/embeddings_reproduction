@@ -1,16 +1,36 @@
-## Code to reproduce the paper *Learned Protein Embeddings for Machine Learning*.
+# Code to reproduce the paper *Learned Protein Embeddings for Machine Learning*.
 
-### Computing Environment:
+## Installation
+
+`embeddings_reproduction` can be installed with `pip` from the command line using the following command:
+
+```bash
+$ pip install git+https://github.com/fhalab/embeddings_reproduction.git
+```
+
+It can also be installed in editable mode (`-e`) from the source with:
+
+```bash
+$ git clone https://github.com/fhalab/embeddings_reproduction.git
+$ cd embeddings_reproduction
+$ pip install -e .
+```
+
+The second option might be necessary depending on how your computer handles Git-LFS. Because some of the files are large, the connection might time out.
+
+### Computing Environment
 
 This was originally developed using Anaconda Python 3.5 and the following packages and versions:
 
-1. gensim 1.0.1
-2. numpy 1.13.1
-3. pandas 0.20.3
-4. scipy 0.19.1
-5. sklearn 0.19.0
-6. matplotlib 2.0.2
-7. seaborn 0.8.1
+```
+gensim==1.0.1
+numpy==1.13.1
+pandas==0.20.3
+scipy==0.19.1
+sklearn==0.19.0
+matplotlib==2.0.2
+seaborn==0.8.1
+```
 
 ### File structure
 
